@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "*"
+requests = "*"
+mysql-connector-python = "*"
+pylint-flask = "*"
+
+[packages]
+numpy = "*"
+pandas = "*"
+flask-restful = "==0.3.8"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+flask = "==1.1.2"
+mysql-connector-python = "*"
+bcrypt = "*"
+flask-jwt-extended = "==3.25.0"
+pymysql = "*"
+wheel = "*"
+flask-mail = "*"
+werkzeug = "*"
+cryptography = "*"
+flask-cors = "*"
+gspread = "*"
+oauth2client = "*"
+pydicom = "*"
